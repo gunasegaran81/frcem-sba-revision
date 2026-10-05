@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Shield / Rounded Background -->
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#bgGrad)" stroke="#38bdf8" stroke-width="2"/>
+  
+  <!-- Star of Life / Medical Cross -->
+  <path d="M32 8 L32 56 M8 32 L56 32 M15 15 L49 49 M15 49 L49 15" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M28 10 H36 V24 H48 V32 H48 V40 H36 V54 H28 V40 H16 V32 H16 V24 H28 Z" fill="url(#cyanGrad)" opacity="0.25"/>
+
+  <!-- Caduceus / Asclepius Staff -->
+  <line x1="32" y1="10" x2="32" y2="54" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="10" r="3.5" fill="url(#goldGrad)"/>
+  
+  <!-- Coiled Serpent -->
+  <path d="M26 44 Q38 40 32 34 Q26 28 38 24 Q32 18 26 15" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Dynamic ECG QRS Pulse Line -->
+  <path d="M4 38 L18 38 L22 34 L26 44 L30 22 L34 48 L38 36 L42 40 L46 38 L60 38" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
